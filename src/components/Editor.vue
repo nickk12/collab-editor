@@ -65,8 +65,8 @@ const getRandomRoom = () => {
   return getRandomElement(roomNumbers.map(number => `rooms.${number}`))
 }
 
-  const provider = new HocuspocusProvider({
-    url: 'wss://dbatinic.com',
+  const provider = new HocuspocusProvider({ 
+    url: 'ws://77.244.243.55', 
     name: "Editor", 
   }); 
 

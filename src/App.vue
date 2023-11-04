@@ -8,7 +8,7 @@ import Editor from './components/Editor.vue';
   <header>
     
     <div class="wrapper">
-      <HelloWorld msg="Leave a message" />
+      <HelloWorld msg="Collaborative Editor" />
     </div>
   </header>
 
