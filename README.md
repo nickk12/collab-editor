@@ -1,6 +1,7 @@
 # collab-editor
 
 ## About 
+Collaborative Editor, a cutting-edge platform designed to elevate the collaborative writing experience. Our editor empowers users to work together in real-time, fostering efficient and seamless collaboration on text-based projects. 
 
 ## Features:
 
@@ -8,7 +9,6 @@ Real-time Collaboration: Edit and collaborate with others in real-time. Changes 
 
 User Presence: See who else is currently active and contributing to the document, fostering a sense of teamwork.
 
-Chat Functionality: Communicate with your collaborators through an integrated chat feature, making collaboration more interactive.
 
 ## Preview
 ![Alt text](src/assets/Editor.png")
