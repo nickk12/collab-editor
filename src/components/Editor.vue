@@ -52,23 +52,25 @@
   import CollaborationCursor from '@tiptap/extension-collaboration-cursor'; 
   import { variables } from '../../variables.js'; 
   import MenuBar from './MenuBar.vue'; 
+  import * as Y from 'yjs'
   /*import Mention from '@tiptap/extension-mention'; 
   import suggestion from '../../suggestion.js'; 
 */
+  const ydoc = new Y.Doc()
+  
+  const provider = new HocuspocusProvider({ 
+    url: 'ws://localhost:5137', //Localhost url with port number 
+    name: "collab-editor", 
+  }); 
+
   const getRandomElement = list => {
   return list[Math.floor(Math.random() * list.length)]
-}
+  }
 
-const getRandomRoom = () => {
-  const roomNumbers = variables.collabRooms?.trim()?.split(',') ?? [10, 11, 12]
-
-  return getRandomElement(roomNumbers.map(number => `rooms.${number}`))
-}
-
-  const provider = new HocuspocusProvider({ 
-    url: 'ws://77.244.243.55', 
-    name: "Editor", 
-  }); 
+  const getRandomRoom = () => {
+    const roomNumbers = variables.collabRooms?.trim()?.split(',') ?? [10, 11, 12]
+    return getRandomElement(roomNumbers.map(number => `rooms.${number}`))
+  }
 
   export default {
     components: {
@@ -94,12 +96,12 @@ const getRandomRoom = () => {
   },
   
     mounted() {
-      
-
       this.editor = new Editor({
         extensions: [
           StarterKit.configure({
+            // The Collaboration extension comes with its own history handling
             history: false,
+            
           }),
 
           Collaboration.configure({
