@@ -1,7 +1,7 @@
 # collab-editor
 
 ## About 
-Collaborative Editor, a cutting-edge platform designed to elevate the collaborative writing experience. Our editor empowers users to work together in real-time, fostering efficient and seamless collaboration on text-based projects. 
+Simple Collaborative Editor developed with TipTap, a cutting-edge platform designed to elevate the collaborative writing experience. The editor empowers users to work together in real-time, fostering efficient and seamless collaboration on text-based projects. 
 
 ## Features:
 
