@@ -12,7 +12,8 @@ Chat Functionality: Communicate with your collaborators through an integrated ch
 
 ## Preview
 (https://github.com/nickk12/collab-editor/blob/41a14373e9022384a6918bb8d8dd00ba006784d6/src/assets/Editor.png)
-
+'src/assets/Editor.png'
+![Alt text](src/assets/Editor.png")
 
 
 This template should help get you started developing with Vue 3 in Vite.
