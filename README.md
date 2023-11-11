@@ -1,5 +1,20 @@
 # collab-editor
 
+## About 
+
+## Features:
+
+Real-time Collaboration: Edit and collaborate with others in real-time. Changes made by one user are instantly reflected for all collaborators.
+
+User Presence: See who else is currently active and contributing to the document, fostering a sense of teamwork.
+
+Chat Functionality: Communicate with your collaborators through an integrated chat feature, making collaboration more interactive.
+
+## Preview
+[src/assets/Editor.png](https://github.com/nickk12/collab-editor/blob/41a14373e9022384a6918bb8d8dd00ba006784d6/src/assets/Editor.png)
+
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
