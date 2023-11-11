@@ -11,7 +11,7 @@ User Presence: See who else is currently active and contributing to the document
 
 
 ## Preview
-![Alt text](Editor.png")
+![Alt text](Editor.png "Optional Title")
 
 
 This template should help get you started developing with Vue 3 in Vite.
